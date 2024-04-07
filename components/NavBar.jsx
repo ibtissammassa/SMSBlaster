@@ -1,6 +1,10 @@
+"use client"
 import Link from "next/link";
+import { useState } from "react";
+import {Feedback} from "@/components/component/feedback";
 
 function NavBar() {
+  const [showfeedback,setShowFeedback] = useState(false);
   return (
     <>
       <div className="bg-gray-50/90 border-t border-b border-gray-200 dark:bg-gray-950 dark:border-gray-800 w-full">
@@ -38,7 +42,7 @@ function NavBar() {
               <Link
                 className="font-medium text-gray-500 transition-colors hover:text-gray-900"
                 href="#how">
-                How it works?
+                How it works
               </Link>
               <Link
                 className="font-medium text-gray-500 transition-colors hover:text-gray-900"
@@ -47,11 +51,11 @@ function NavBar() {
               </Link>
             </div>
             <div className="">
-              <Link
-                className="inline-flex h-10 items-center justify-center rounded-xl border border-gray-200 bg-gray-200 px-4 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 "
-                href="#">
+              <div
+                className="inline-flex h-10 cursor-pointer items-center justify-center rounded-xl border border-gray-200 bg-gray-200 px-4 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 "
+                href="#" onClick={()=>{setShowFeedback(!showfeedback)}}>
                 Feedback
-              </Link>
+              </div>
               {/* <div
                 className="inline-flex ml-3 h-10 items-center justify-center rounded-xl border text-gray-600 border-gray-100 bg-gray-100 px-4 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 "
                 href="#">
@@ -73,6 +77,7 @@ function NavBar() {
           </nav>
         </div>
       </div>
+      {showfeedback && <Feedback setShowFeedback={setShowFeedback}/>}
     </>
   );
 }
