@@ -24,7 +24,7 @@ function NavBar() {
             <Link
               className="flex items-center space-x-2 font-bold"
               href="/">
-              <MessageSquareIcon className="w-6 h-6 fill-current" />
+              <MessageSquareIcon className="w-6 h-6 fill-current"/>
               <span className="text-xl font-bold tracking-tighter">
                 SMSBlaster
               </span>
