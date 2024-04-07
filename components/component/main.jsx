@@ -17,7 +17,7 @@ export function Component() {
           <h1 className="text-4xl font-bold tracking-tighter md:text-6xl/relaxed">
             Send SMS messages to multiple recipients
           </h1>
-          <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+          <p className="max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             Upload a file with phone numbers and compose your message. We handle
             the rest.
           </p>
@@ -38,7 +38,7 @@ export function Component() {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
               Features
             </h2>
-            <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               A simple and intuitive platform to send SMS messages.
             </p>
           </div>
@@ -46,28 +46,28 @@ export function Component() {
             <div className="flex flex-col items-center justify-center space-y-2">
               <CheckCircleIcon className="w-12 h-12 rounded-full bg-gray-100 p-3" />
               <h3 className="font-bold">Easy to use</h3>
-              <p className="text-xs text-gray-500 dark:text-gray-400">
+              <p className="text-xs text-gray-500">
                 Intuitive interface
               </p>
             </div>
             <div className="flex flex-col items-center justify-center space-y-2">
               <CheckCircleIcon className="w-12 h-12 rounded-full bg-gray-100 p-3" />
               <h3 className="font-bold">Fast delivery</h3>
-              <p className="text-xs text-gray-500 dark:text-gray-400">
+              <p className="text-xs text-gray-500">
                 Messages sent instantly
               </p>
             </div>
             <div className="flex flex-col items-center justify-center space-y-2">
               <CheckCircleIcon className="w-12 h-12 rounded-full bg-gray-100 p-3" />
               <h3 className="font-bold">Customization</h3>
-              <p className="text-xs text-gray-500 dark:text-gray-400">
+              <p className="text-xs text-gray-500">
                 Personalize your messages
               </p>
             </div>
             <div className="flex flex-col items-center justify-center space-y-2">
               <CheckCircleIcon className="w-12 h-12 rounded-full bg-gray-100 p-3" />
               <h3 className="font-bold">Secure</h3>
-              <p className="text-xs text-gray-500 dark:text-gray-400">
+              <p className="text-xs text-gray-500">
                 Your data is safe with us
               </p>
             </div>
@@ -82,32 +82,32 @@ export function Component() {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
               How it works
             </h2>
-            <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            <p className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Sending SMS messages with SMSBlaster is as easy as 1-2-3.
             </p>
           </div>
           <div className="grid max-w-sm gap-4 mx-auto items-start sm:max-w-2xl lg:gap-6 md:grid-cols-3 md:max-w-4xl">
             <div className="flex flex-col items-center justify-center space-y-2">
-              <div className="flex w-12 h-12 items-center justify-center rounded-full border border-gray-200 bg-gray-900 text-gray-50 shadow transition-colors hover:translate-y-[-2px] hover:bg-gray-900/90 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-950 dark:hover:text-gray-50 dark:border-gray-800">
+              <div className="flex w-12 h-12 items-center justify-center rounded-full border border-gray-200 bg-gray-900 text-gray-50 shadow transition-colors hover:translate-y-[-2px] hover:bg-gray-900/90 dark:bg-gray-950 dark:hover:bg-gray-950 dark:hover:text-gray-50 dark:border-gray-800">
                 1
               </div>
-              <p className="text-xs text-gray-500 dark:text-gray-400">
+              <p className="text-xs text-gray-500">
                 Upload your file
               </p>
             </div>
             <div className="flex flex-col items-center justify-center space-y-2">
-              <div className="flex w-12 h-12 items-center justify-center rounded-full border border-gray-200 bg-gray-900 text-gray-50 shadow transition-colors hover:translate-y-[-2px] hover:bg-gray-900/90 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-950 dark:hover:text-gray-50 dark:border-gray-800">
+              <div className="flex w-12 h-12 items-center justify-center rounded-full border border-gray-200 bg-gray-900 text-gray-50 shadow transition-colors hover:translate-y-[-2px] hover:bg-gray-900/90 dark:bg-gray-950 dark:hover:bg-gray-950 dark:hover:text-gray-50 dark:border-gray-800">
                 2
               </div>
-              <p className="text-xs text-gray-500 dark:text-gray-400">
+              <p className="text-xs text-gray-500">
                 Compose your message
               </p>
             </div>
             <div className="flex flex-col items-center justify-center space-y-2">
-              <div className="flex w-12 h-12 items-center justify-center rounded-full border border-gray-200 bg-gray-900 text-gray-50 shadow transition-colors hover:translate-y-[-2px] hover:bg-gray-900/90 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-950 dark:hover:text-gray-50 dark:border-gray-800">
+              <div className="flex w-12 h-12 items-center justify-center rounded-full border border-gray-200 bg-gray-900 text-gray-50 shadow transition-colors hover:translate-y-[-2px] hover:bg-gray-900/90 dark:border-gray-800 dark:bg-gray-950 dark:hover:bg-gray-950 dark:hover:text-gray-50">
                 3
               </div>
-              <p className="text-xs text-gray-500 dark:text-gray-400">
+              <p className="text-xs text-gray-500">
                 Send to recipients
               </p>
             </div>
@@ -120,7 +120,7 @@ export function Component() {
         <div className="space-y-3 text-center">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Trusted by our customers</h2>
           <p
-            className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
+            className="mx-auto max-w-[600px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             We help teams of all sizes. Trusted by the best teams in the world.
           </p>
         </div>
