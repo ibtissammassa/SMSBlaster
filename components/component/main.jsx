@@ -24,7 +24,7 @@ export function Component() {
         </div>
         <div className="flex flex-col gap-2 w-full justify-center min-[400px]:flex-row">
           <Link
-            className="inline-flex h-10 items-center justify-center rounded-md border border-gray-200 bg-gray-900 px-8 text-sm font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 "
+            className="inline-flex h-12 items-center justify-center rounded-md border border-gray-200 bg-gray-900 px-8 text-base font-medium text-gray-50 shadow transition-colors hover:bg-gray-900/90 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 disabled:pointer-events-none disabled:opacity-50 "
             href="/send">
             Get started
           </Link>
