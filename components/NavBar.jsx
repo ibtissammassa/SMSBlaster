@@ -20,16 +20,16 @@ function NavBar() {
       </div>
       <div className="py-6 md:py-10 lg:py-14">
         <div className="container flex flex-col items-center gap-4 px-16 text-center md:gap-6 ">
-          <nav className="flex items-center w-full justify-between">
+          <nav className="flex items-center justify-between w-full">
             <Link
               className="flex items-center space-x-2 font-bold"
               href="/">
-              <MessageSquareIcon className="w-6 h-6 fill-current"/>
+              <MessageSquareIcon className="w-6 h-6 fill-current" />
               <span className="text-xl font-bold tracking-tighter">
                 SMSBlaster
               </span>
             </Link>
-            <div className="hidden items-center space-x-3 md:flex">
+            <div className="hidden items-center space-x-4 md:flex">
               <Link
                 className="font-medium text-gray-500 transition-colors hover:text-gray-900"
                 href="#features">
@@ -45,6 +45,18 @@ function NavBar() {
                 href="#contact">
                 Contact
               </Link>
+            </div>
+            <div className="">
+              <Link
+                className="inline-flex h-10 items-center justify-center rounded-xl border border-gray-200 bg-gray-200 px-4 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 "
+                href="#">
+                Feedback
+              </Link>
+              {/* <div
+                className="inline-flex ml-3 h-10 items-center justify-center rounded-xl border text-gray-600 border-gray-100 bg-gray-100 px-4 text-sm font-medium shadow-sm transition-colors hover:bg-gray-100 hover:text-gray-900 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-gray-950 "
+                href="#">
+                Beta
+              </div> */}
             </div>
             {/* <div className="ml-auto">
             <Link
